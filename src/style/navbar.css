@@ -1,0 +1,32 @@
+.topbar-fixed{
+  background-image: linear-gradient(rgb(78, 78, 78), rgb(32, 32, 32));
+  height:40px;
+  top: 0;
+  position:fixed;
+  width:100%;
+  z-index: 1000;
+  margin: 0;
+}
+.topbar-fixed .buttons {
+    flex: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    top: 0;
+  }
+.topbar-fixed a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 5px 20px;
+  }
+.topbar-fixed a:hover{
+    color:white;
+    background-color:rgb(53, 52, 52);
+}
+.topbar-fixed a i{
+    padding:6px;
+    font-size:18px;
+}
